@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Helvetica Cond Light;
+    src: url(HelveticaNeueLTCom-LtCn.ttf);
+}
+
+body {
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: Helvetica Cond Light;
+    font-size: 20px;
+}
+
+div#container {
+    margin: 0;
+    padding: 10px;
+    width: 430px;
+    border: none;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}
+
+div {
+    margin-top: 40px;
+    border: 1px solid #b3b3b3;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+img {
+    border: 1px solid #b3b3b3;
+    float: left;
+    margin-right: 15px;
+    width: 150px;
+    height: 100px;
+}
+
+p {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.button1, .button2 {
+    background: url(images/button.png) repeat-y;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px ridge rgba(138, 0, 0, 0.6);
+}
+
+div.button2 {
+    margin-right: 3px;
+    float: right;
+    width: 77px;
+}
+
+div.button1 {
+    float: right;
+    width: 65px;
+}
+
+p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+    p a:hover {
+        text-decoration: underline;
+    }
+
+.clearfix {
+    zoom: 1;
+}
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+        height: 0;
+    }

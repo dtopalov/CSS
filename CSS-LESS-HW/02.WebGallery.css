@@ -1,0 +1,51 @@
+body,
+form,
+fieldset,
+input,
+label,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial;
+  font-size: 16px;
+}
+body {
+  background-color: #DDDDDD;
+  padding: 5px;
+}
+body form {
+  width: 940px;
+  margin: auto;
+}
+body form fieldset {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+body form fieldset label {
+  width: 150px;
+  height: 150px;
+}
+body form fieldset legend {
+  font-size: 1.2em;
+}
+body form fieldset img:first-of-type {
+  width: 150px;
+  height: 150px;
+}
+body form fieldset img:last-of-type {
+  position: absolute;
+  top: 190px;
+  height: 450px;
+  width: 450px;
+  border: 1px solid black;
+  display: none;
+}
+body form fieldset input[type="radio"] {
+  display: none;
+}
+body form fieldset input[type="radio"]:checked + label img:last-of-type {
+  display: block;
+}
