@@ -47,6 +47,21 @@ input[type="text"] {
     vertical-align: top;
 }
 
+input[type="submit"] {
+    background-image: url(images/bg2.png);
+    background-position: -5px -12px;
+    background-size: 66px 52px;
+    width: 56px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 10px;
+    top: -3px;
+    border-radius: 12px;
+    border: none;
+}
+
 ::-webkit-input-placeholder { 
     color:#000; 
 }
