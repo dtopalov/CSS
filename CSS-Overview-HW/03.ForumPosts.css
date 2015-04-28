@@ -21,6 +21,9 @@ nav ul li a:hover {
 nav ul li a.current {
     background-color:#d3d3d3;
 }
+li:last-child a {
+    text-decoration: underline;
+}
 section article header h1 {
     color:#fafad2;
     font-size:26px;
