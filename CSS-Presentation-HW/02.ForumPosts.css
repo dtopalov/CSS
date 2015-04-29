@@ -19,10 +19,6 @@ body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, l
     border: 0;
 }
 
-div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
-    display: block;
-}
-
 body {
     font: 14px normal Arial;
     color: white;
