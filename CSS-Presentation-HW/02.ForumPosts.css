@@ -1,18 +1,3 @@
-.clearfix, body header div#header-container, body header nav, body header nav ul, body header nav ul li ul.sub-nav-list, body section, body aside {
-    zoom: 1;
-}
-
-    .clearfix:after, body header div#header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after, .clearfix:before, body header div#header-container:before, body header nav:before, body header nav ul:before, body header nav ul li ul.sub-nav-list:before, body section:before, body aside:before {
-        content: "\0020";
-        display: block;
-        height: 0;
-        overflow: hidden;
-    }
-
-    .clearfix:after, body header div#header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after {
-        clear: both;
-    }
-
 body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
     margin: 0;
     padding: 0;
@@ -43,11 +28,11 @@ body {
             top: 50%;
         }
 
-            body header div#header-container div#reg-form-container div {
+            body header #header-container #reg-form-container div {
                 text-align: right;
             }
 
-                body header div#header-container div#reg-form-container div label {
+                body header #header-container #reg-form-container div label {
                     width: 50px;
                     margin: 5px;
                 }
@@ -61,11 +46,11 @@ body {
                     background-color: #b35ef3;
                 }
 
-            body header div#header-container div#reg-form-container button {
+            body header #header-container #reg-form-container button {
                 margin-left: auto;
                 margin-right: auto;
                 font-weight: bold;
-                border: 1px solid #603382;
+                border: 2px solid #603382;
                 border-style: outset;
                 border-radius: 10px;
                 padding: 5px 8px;
@@ -73,7 +58,7 @@ body {
                 background-color: transparent;
             }
 
-                body header div#header-container div#reg-form-container button:hover {
+                body header #header-container #reg-form-container button:hover {
                     background-color: #8949b9;
                     border-style: inset;
                 }
