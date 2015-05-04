@@ -104,6 +104,7 @@ td {
 .radio {
     text-align: left;
     padding: 5px;
+    height: 82px;
 }
 
 p.calc {
@@ -242,4 +243,8 @@ input {
 
 .smaller {
     font-size: 11px;
+}
+
+footer {
+    margin-top: 20px;
 }
